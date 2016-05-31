@@ -110,6 +110,31 @@ TABLES_ORDER = [
     "entrega_manteiga"
 ]
 
+TABLES_NUM = {
+    "cliente": 234,
+    "fornecedor": 58,
+    "transportadora": 111,
+    "estoque": 34,
+    "lote_insumo": 1001,#9001,
+    #"insumo": 1001,
+    "preco_leite_uht": 321,
+    "lote_leite_uht": 321,
+    #"leite_uht",
+    "preco_queijo": 420,
+    "lote_queijo": 420,
+    #"queijo",
+    "lote_manteiga": 259,
+    "preco_manteiga": 259,
+    #"manteiga",
+    "pessoa": 342,
+    #"e_responsavel_por_transportadora",
+    #"e_responsavel_por_fornecedor",
+    #"e_responsavel_por_cliente",
+    #"entrega_leite_uht",
+    #"entrega_queijo",
+    #"entrega_manteiga"
+}
+
 #foreign keys specification
 #(param_posit, relation_name, relation_param_posit)
 DEPS = {
@@ -188,7 +213,7 @@ def sql_cmd(table_name, table_values):
 """
 generates tables values
 """
-def gen(num, output):
+def gen(output):
     #connecting to database
     #print "connecting to database '%s' ... " % db_name,
     #conn = ppg.connect(database=db_name)
@@ -201,20 +226,33 @@ def gen(num, output):
     lists = dict((tp, list_from_file(RAND_DIR + "/" + tp + ".txt")) \
         for tp in TYPES)
 
-    #get_val = lambda tp, index: lists[PARAMS_TYPES[tp]][index]
-
     tables = {}
 
     for name in TABLES_ORDER:
         types = TABLES[name]
         vals = {}        
+        print "in relation '%s' ..." % name,
         if name in DEPS:
+            num = min([len(tables[n][t]) for __, n, t in DEPS[name]])
             for dep in DEPS[name]:
                 tp, dep_name, dep_tp = dep
                 vals[tp] = tables[dep_name][dep_tp]
+                #print "dep", dep_name
+                v_num = len(vals[tp])
+                #print "nums:", v_num, num
+                if num > v_num:
+                    vals[tp] += \
+                        [get_val(lists, tp, i) for i in range(num - v_num)]
+        else:
+            num = TABLES_NUM[name]
+        #num = max([0] + [len(vals[k]) for k in vals])
+        #print "newnum=", num
         for tp in types:
             if not tp in vals:
                 vals[tp] = [get_val(lists, tp, i) for i in range(num)]
+         
+        #for k, v in vals.iteritems():
+        #    print "k=", k, "len(v)=", len(v)
 
         for i in range(num):
             tup_vals = [vals[tp][i] for tp in types]
@@ -224,28 +262,24 @@ def gen(num, output):
 
         tables[name] = vals
 
+        print "done"
+
     #conn.commit()
     #print "records created"
     #cur.close()
     #conn.close()
 
-#usage: gen <num_tuples> [out_filename]
+#usage: gen <out_filename>
 def main():
     if len(sys.argv) < 2:
-        num = 10
+        print "usage: gen <out_filename>"
+        exit()
     else:
-        num = int(sys.argv[1])
+        output = open(sys.argv[1], "w")
 
-    if len(sys.argv) > 2:
-        output = open(sys.argv[2], "w")
-        end_msg = "records created"
-    else:
-        output = sys.stdout
-        end_msg = ""
+    gen(output)
 
-    gen(num, output)
-
-    print end_msg
+    print "end of generation"
 
 if __name__ == "__main__":
     main()

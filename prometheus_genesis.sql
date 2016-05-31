@@ -1,4 +1,4 @@
-SET datestyle TO postgres, dmy;
+SET datestyle TO postgres, dmy; 
 
 create table cliente (
 	cnpj bigint,

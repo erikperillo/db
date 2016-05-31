@@ -1,0 +1,67 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\newcommand{\tit}[1]{\textit{#1}}
+\newcommand{\tbf}[1]{\textbf{#1}}
+\newcommand{\ttt}[1]{\texttt{#1}}
+
+\begin{document}
+
+\title{Sistema de Gestão para fábrica de derivados do leite\\
+	``Laticínios Prometheus Ltda''}
+\author{Rafael Xavier 094349\\
+	Matheus Ferreira Tavares Boy 103501\\
+	Rafael Ossamu Gouvêa 106905\\
+	Felipe Viglioni 106665\\
+	Erik Perillo 135582}
+\date{}
+\maketitle
+
+\newpage
+
+\section{Esquema efetivamente implementado}
+\paragraph{}
+Observações: houve poucas alterações no esquema da parte 2. 
+A única coisa que mudou foi que a relação \tit{gera} foi removida pois 
+revelou-se não ser necessária aos serviços que implementamos.
+As relações \tit{entrega} e \tit{e\_responsavel\_por} foram especializadas
+para suas versões relativas \ttt{leite\_uht, queijo, manteiga} e 
+\ttt{transportadora, fornecedor, cliente}, respectivamente. Houve também
+uma pequena renomeação de \ttt{leite} para \ttt{leite\_uht}.
+
+\begin{itemize}
+	\item CLIENTE(cnpj*, razao\_social) -- 234 tuplas
+	\item FORNECEDOR(cnpj*, razao\_social) -- 58 tuplas
+	\item TRANSPORTADORA(cnpj*, razao\_social) -- 111 tuplas
+
+	\item INSUMO(id*, lote\_insumo, preco, tipo\_gado\_origem, cnpj, data) 
+		-- 9001 tuplas
+	\item LOTE\_INSUMO(lote\_insumo*, data\_fab, validade) -- 9001 tuplas
+
+	\item LEITE\_UHT(id*, lote\_leite, local, preco\_leite, cnpj, data) -- 
+	\item LOTE\_LEITE\_UHT(lote\_leite*, data\_fab, validade,  qualidade)
+	\item PRECO\_LEITE\_UHT(preco\_leite*, margem\_de\_lucro)
+
+	\item QUEIJO(id*, lote\_queijo, local, preco\_queijo, cnpj, data)
+	\item LOTE\_QUEIJO(lote\_queijo*, data\_fab, validade,  qualidade)
+	\item PRECO\_QUEIJO(preco\_queijo*, margem\_de\_lucro)
+
+	\item MANTEIGA(id*, lote\_manteiga, local, preco\_manteiga, cnpj, data)
+	\item LOTE\_MANTEIGA(lote\_manteiga*, data\_fab, validade,  qualidade, com\_sal,)
+	\item PRECO\_MANTEIGA(preco\_manteiga*, margem\_de\_lucro)
+
+	\item PESSOA(cpf*, nome, telefone)
+
+	\item ESTOQUE(local*, capacidade, volume\_atual)
+
+	\item E\_RESPONSAVEL\_POR([cpf, cnpj]*)
+	\item ENTREGA(id*, cnpj, data)
+\end{itemize}
+
+\end{document}

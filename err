@@ -1,0 +1,1097 @@
+psql:gen.sql:516: ERROR:  date/time field value out of range: "02/29/2002"
+LINE 1: INSERT INTO lote_insumo VALUES ('16978','02/29/2002','36');
+                                                ^
+psql:gen.sql:517: ERROR:  date/time field value out of range: "02/29/2005"
+LINE 1: INSERT INTO lote_insumo VALUES ('17249','02/29/2005','73');
+                                                ^
+psql:gen.sql:518: ERROR:  date/time field value out of range: "02/29/2009"
+LINE 1: INSERT INTO lote_insumo VALUES ('17459','02/29/2009','114');
+                                                ^
+psql:gen.sql:937: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(109) already exists.
+psql:gen.sql:938: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(547) already exists.
+psql:gen.sql:939: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(801) already exists.
+psql:gen.sql:940: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(916) already exists.
+psql:gen.sql:941: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(961) already exists.
+psql:gen.sql:942: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(2529) already exists.
+psql:gen.sql:943: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(3056) already exists.
+psql:gen.sql:944: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(3077) already exists.
+psql:gen.sql:945: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(3298) already exists.
+psql:gen.sql:946: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(4010) already exists.
+psql:gen.sql:947: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(4231) already exists.
+psql:gen.sql:948: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(4454) already exists.
+psql:gen.sql:949: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(4557) already exists.
+psql:gen.sql:950: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(4698) already exists.
+psql:gen.sql:951: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(4701) already exists.
+psql:gen.sql:952: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(4761) already exists.
+psql:gen.sql:953: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(4766) already exists.
+psql:gen.sql:954: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(5211) already exists.
+psql:gen.sql:955: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(5704) already exists.
+psql:gen.sql:956: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(5850) already exists.
+psql:gen.sql:957: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(5891) already exists.
+psql:gen.sql:958: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(5935) already exists.
+psql:gen.sql:959: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(6363) already exists.
+psql:gen.sql:960: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(7110) already exists.
+psql:gen.sql:961: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(7264) already exists.
+psql:gen.sql:962: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(7597) already exists.
+psql:gen.sql:963: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(8029) already exists.
+psql:gen.sql:964: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(8374) already exists.
+psql:gen.sql:965: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(8497) already exists.
+psql:gen.sql:966: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(8559) already exists.
+psql:gen.sql:967: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(8643) already exists.
+psql:gen.sql:968: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(8677) already exists.
+psql:gen.sql:969: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(9345) already exists.
+psql:gen.sql:970: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(9399) already exists.
+psql:gen.sql:971: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(9668) already exists.
+psql:gen.sql:972: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(9963) already exists.
+psql:gen.sql:973: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(10049) already exists.
+psql:gen.sql:974: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(10185) already exists.
+psql:gen.sql:975: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(10422) already exists.
+psql:gen.sql:976: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(11235) already exists.
+psql:gen.sql:977: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(11597) already exists.
+psql:gen.sql:978: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(11626) already exists.
+psql:gen.sql:979: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(11688) already exists.
+psql:gen.sql:980: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(11932) already exists.
+psql:gen.sql:981: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(12084) already exists.
+psql:gen.sql:982: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(12105) already exists.
+psql:gen.sql:983: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(12177) already exists.
+psql:gen.sql:984: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(12200) already exists.
+psql:gen.sql:985: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(12434) already exists.
+psql:gen.sql:986: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(12743) already exists.
+psql:gen.sql:987: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(12793) already exists.
+psql:gen.sql:988: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(12831) already exists.
+psql:gen.sql:989: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(12900) already exists.
+psql:gen.sql:990: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(12973) already exists.
+psql:gen.sql:991: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(13257) already exists.
+psql:gen.sql:992: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(13278) already exists.
+psql:gen.sql:993: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(13286) already exists.
+psql:gen.sql:994: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(13402) already exists.
+psql:gen.sql:995: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(13506) already exists.
+psql:gen.sql:996: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(13532) already exists.
+psql:gen.sql:997: ERROR:  date/time field value out of range: "02/29/2002"
+LINE 1: INSERT INTO lote_insumo VALUES ('13736','02/29/2002','85');
+                                                ^
+psql:gen.sql:998: ERROR:  date/time field value out of range: "02/29/2005"
+LINE 1: INSERT INTO lote_insumo VALUES ('14083','02/29/2005','98');
+                                                ^
+psql:gen.sql:999: ERROR:  date/time field value out of range: "02/29/2009"
+LINE 1: INSERT INTO lote_insumo VALUES ('14140','02/29/2009','73');
+                                                ^
+psql:gen.sql:1000: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(14527) already exists.
+psql:gen.sql:1001: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(14606) already exists.
+psql:gen.sql:1002: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(14918) already exists.
+psql:gen.sql:1003: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(15562) already exists.
+psql:gen.sql:1004: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(15583) already exists.
+psql:gen.sql:1005: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(16025) already exists.
+psql:gen.sql:1006: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(16031) already exists.
+psql:gen.sql:1007: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(16174) already exists.
+psql:gen.sql:1008: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(16237) already exists.
+psql:gen.sql:1009: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(16375) already exists.
+psql:gen.sql:1010: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(16442) already exists.
+psql:gen.sql:1011: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(16593) already exists.
+psql:gen.sql:1012: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(16625) already exists.
+psql:gen.sql:1013: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(16718) already exists.
+psql:gen.sql:1014: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(16779) already exists.
+psql:gen.sql:1018: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(17485) already exists.
+psql:gen.sql:1019: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(17515) already exists.
+psql:gen.sql:1020: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(18135) already exists.
+psql:gen.sql:1021: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(18633) already exists.
+psql:gen.sql:1022: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(18717) already exists.
+psql:gen.sql:1023: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(18738) already exists.
+psql:gen.sql:1024: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(19502) already exists.
+psql:gen.sql:1025: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(19547) already exists.
+psql:gen.sql:1026: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(19763) already exists.
+psql:gen.sql:1027: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(19861) already exists.
+psql:gen.sql:1028: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(20140) already exists.
+psql:gen.sql:1029: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(20389) already exists.
+psql:gen.sql:1030: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(20905) already exists.
+psql:gen.sql:1031: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(21342) already exists.
+psql:gen.sql:1032: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(21439) already exists.
+psql:gen.sql:1033: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(21657) already exists.
+psql:gen.sql:1034: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(22108) already exists.
+psql:gen.sql:1035: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(22109) already exists.
+psql:gen.sql:1036: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(22282) already exists.
+psql:gen.sql:1037: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(22303) already exists.
+psql:gen.sql:1038: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(22466) already exists.
+psql:gen.sql:1039: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(22571) already exists.
+psql:gen.sql:1040: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(22627) already exists.
+psql:gen.sql:1041: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(22756) already exists.
+psql:gen.sql:1042: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(23017) already exists.
+psql:gen.sql:1043: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(23196) already exists.
+psql:gen.sql:1044: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(23242) already exists.
+psql:gen.sql:1045: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(23474) already exists.
+psql:gen.sql:1046: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(23488) already exists.
+psql:gen.sql:1047: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(23553) already exists.
+psql:gen.sql:1048: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(23756) already exists.
+psql:gen.sql:1049: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(23894) already exists.
+psql:gen.sql:1050: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(24487) already exists.
+psql:gen.sql:1051: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(24546) already exists.
+psql:gen.sql:1052: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(24768) already exists.
+psql:gen.sql:1053: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(25100) already exists.
+psql:gen.sql:1054: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(25285) already exists.
+psql:gen.sql:1055: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(25518) already exists.
+psql:gen.sql:1056: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(25582) already exists.
+psql:gen.sql:1057: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(26305) already exists.
+psql:gen.sql:1058: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(27095) already exists.
+psql:gen.sql:1059: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(27256) already exists.
+psql:gen.sql:1060: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(27297) already exists.
+psql:gen.sql:1061: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(27428) already exists.
+psql:gen.sql:1062: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(27513) already exists.
+psql:gen.sql:1063: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(27539) already exists.
+psql:gen.sql:1064: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(27563) already exists.
+psql:gen.sql:1065: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(28280) already exists.
+psql:gen.sql:1066: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(28535) already exists.
+psql:gen.sql:1067: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(28634) already exists.
+psql:gen.sql:1068: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(28645) already exists.
+psql:gen.sql:1069: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(28677) already exists.
+psql:gen.sql:1070: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(28768) already exists.
+psql:gen.sql:1071: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(28973) already exists.
+psql:gen.sql:1072: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(29182) already exists.
+psql:gen.sql:1073: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(29576) already exists.
+psql:gen.sql:1074: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(29846) already exists.
+psql:gen.sql:1075: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(30324) already exists.
+psql:gen.sql:1076: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(30554) already exists.
+psql:gen.sql:1077: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(30652) already exists.
+psql:gen.sql:1078: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(30872) already exists.
+psql:gen.sql:1079: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(31553) already exists.
+psql:gen.sql:1080: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(31711) already exists.
+psql:gen.sql:1081: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(31722) already exists.
+psql:gen.sql:1082: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(31954) already exists.
+psql:gen.sql:1083: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(32283) already exists.
+psql:gen.sql:1084: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(32360) already exists.
+psql:gen.sql:1085: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(32506) already exists.
+psql:gen.sql:1086: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(32710) already exists.
+psql:gen.sql:1087: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(32910) already exists.
+psql:gen.sql:1088: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(33030) already exists.
+psql:gen.sql:1089: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(33240) already exists.
+psql:gen.sql:1090: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(33362) already exists.
+psql:gen.sql:1091: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(33481) already exists.
+psql:gen.sql:1092: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(33560) already exists.
+psql:gen.sql:1093: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(33561) already exists.
+psql:gen.sql:1094: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(34005) already exists.
+psql:gen.sql:1095: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(34472) already exists.
+psql:gen.sql:1096: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(34605) already exists.
+psql:gen.sql:1097: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(34886) already exists.
+psql:gen.sql:1098: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(34903) already exists.
+psql:gen.sql:1099: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(35122) already exists.
+psql:gen.sql:1100: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(35315) already exists.
+psql:gen.sql:1101: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(35536) already exists.
+psql:gen.sql:1102: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(35575) already exists.
+psql:gen.sql:1103: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(35717) already exists.
+psql:gen.sql:1104: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(35722) already exists.
+psql:gen.sql:1105: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(35917) already exists.
+psql:gen.sql:1106: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(36060) already exists.
+psql:gen.sql:1107: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(36107) already exists.
+psql:gen.sql:1108: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(36142) already exists.
+psql:gen.sql:1109: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(36211) already exists.
+psql:gen.sql:1110: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(36288) already exists.
+psql:gen.sql:1111: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(36842) already exists.
+psql:gen.sql:1112: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(36995) already exists.
+psql:gen.sql:1113: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(37154) already exists.
+psql:gen.sql:1114: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(37335) already exists.
+psql:gen.sql:1115: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(37553) already exists.
+psql:gen.sql:1116: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(37679) already exists.
+psql:gen.sql:1117: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(37749) already exists.
+psql:gen.sql:1118: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(37959) already exists.
+psql:gen.sql:1119: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(38040) already exists.
+psql:gen.sql:1120: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(38304) already exists.
+psql:gen.sql:1121: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(38316) already exists.
+psql:gen.sql:1122: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(38483) already exists.
+psql:gen.sql:1123: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(38520) already exists.
+psql:gen.sql:1124: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(38580) already exists.
+psql:gen.sql:1125: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(38699) already exists.
+psql:gen.sql:1126: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(38775) already exists.
+psql:gen.sql:1127: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(39102) already exists.
+psql:gen.sql:1128: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(39298) already exists.
+psql:gen.sql:1129: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(39471) already exists.
+psql:gen.sql:1130: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(40147) already exists.
+psql:gen.sql:1131: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(40232) already exists.
+psql:gen.sql:1132: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(40491) already exists.
+psql:gen.sql:1133: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(40504) already exists.
+psql:gen.sql:1134: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(40590) already exists.
+psql:gen.sql:1135: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(40630) already exists.
+psql:gen.sql:1136: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(41156) already exists.
+psql:gen.sql:1137: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(41503) already exists.
+psql:gen.sql:1138: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(41636) already exists.
+psql:gen.sql:1139: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(41763) already exists.
+psql:gen.sql:1140: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(41901) already exists.
+psql:gen.sql:1141: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(41928) already exists.
+psql:gen.sql:1142: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(42348) already exists.
+psql:gen.sql:1143: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(42889) already exists.
+psql:gen.sql:1144: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(43018) already exists.
+psql:gen.sql:1145: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(43399) already exists.
+psql:gen.sql:1146: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(43445) already exists.
+psql:gen.sql:1147: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(43590) already exists.
+psql:gen.sql:1148: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(43731) already exists.
+psql:gen.sql:1149: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(43934) already exists.
+psql:gen.sql:1150: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(44172) already exists.
+psql:gen.sql:1151: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(44228) already exists.
+psql:gen.sql:1152: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(44316) already exists.
+psql:gen.sql:1153: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(44456) already exists.
+psql:gen.sql:1154: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(44503) already exists.
+psql:gen.sql:1155: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(44814) already exists.
+psql:gen.sql:1156: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(44969) already exists.
+psql:gen.sql:1157: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(45123) already exists.
+psql:gen.sql:1158: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(45135) already exists.
+psql:gen.sql:1159: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(45363) already exists.
+psql:gen.sql:1160: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(45394) already exists.
+psql:gen.sql:1161: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(45418) already exists.
+psql:gen.sql:1162: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(45432) already exists.
+psql:gen.sql:1163: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(45443) already exists.
+psql:gen.sql:1164: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(45559) already exists.
+psql:gen.sql:1165: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(45684) already exists.
+psql:gen.sql:1166: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(46339) already exists.
+psql:gen.sql:1167: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(46417) already exists.
+psql:gen.sql:1168: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(46486) already exists.
+psql:gen.sql:1169: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(46554) already exists.
+psql:gen.sql:1170: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(46565) already exists.
+psql:gen.sql:1171: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(46734) already exists.
+psql:gen.sql:1172: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(46810) already exists.
+psql:gen.sql:1173: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(46913) already exists.
+psql:gen.sql:1174: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(46974) already exists.
+psql:gen.sql:1175: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(47124) already exists.
+psql:gen.sql:1176: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(47307) already exists.
+psql:gen.sql:1177: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(47612) already exists.
+psql:gen.sql:1178: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(47733) already exists.
+psql:gen.sql:1179: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(48072) already exists.
+psql:gen.sql:1180: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(48221) already exists.
+psql:gen.sql:1181: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(48254) already exists.
+psql:gen.sql:1182: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(48339) already exists.
+psql:gen.sql:1183: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(48934) already exists.
+psql:gen.sql:1184: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(48995) already exists.
+psql:gen.sql:1185: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(49027) already exists.
+psql:gen.sql:1186: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(49527) already exists.
+psql:gen.sql:1187: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(49528) already exists.
+psql:gen.sql:1188: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(49626) already exists.
+psql:gen.sql:1189: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(49792) already exists.
+psql:gen.sql:1190: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(49862) already exists.
+psql:gen.sql:1191: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(49955) already exists.
+psql:gen.sql:1192: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(50079) already exists.
+psql:gen.sql:1193: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(50518) already exists.
+psql:gen.sql:1194: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(50573) already exists.
+psql:gen.sql:1195: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(50643) already exists.
+psql:gen.sql:1196: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(50753) already exists.
+psql:gen.sql:1197: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(50977) already exists.
+psql:gen.sql:1198: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(51194) already exists.
+psql:gen.sql:1199: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(51275) already exists.
+psql:gen.sql:1200: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(51365) already exists.
+psql:gen.sql:1201: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(51867) already exists.
+psql:gen.sql:1202: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(52347) already exists.
+psql:gen.sql:1203: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(53123) already exists.
+psql:gen.sql:1204: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(53282) already exists.
+psql:gen.sql:1205: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(53394) already exists.
+psql:gen.sql:1206: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(53401) already exists.
+psql:gen.sql:1207: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(53528) already exists.
+psql:gen.sql:1208: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(53529) already exists.
+psql:gen.sql:1209: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(53662) already exists.
+psql:gen.sql:1210: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(53666) already exists.
+psql:gen.sql:1211: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(54096) already exists.
+psql:gen.sql:1212: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(54221) already exists.
+psql:gen.sql:1213: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(54322) already exists.
+psql:gen.sql:1214: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(54359) already exists.
+psql:gen.sql:1215: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(54654) already exists.
+psql:gen.sql:1216: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(54770) already exists.
+psql:gen.sql:1217: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(54849) already exists.
+psql:gen.sql:1218: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(54969) already exists.
+psql:gen.sql:1219: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(55294) already exists.
+psql:gen.sql:1220: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(55340) already exists.
+psql:gen.sql:1221: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(55498) already exists.
+psql:gen.sql:1222: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(55499) already exists.
+psql:gen.sql:1223: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(55541) already exists.
+psql:gen.sql:1224: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(55795) already exists.
+psql:gen.sql:1225: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(55830) already exists.
+psql:gen.sql:1226: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(56001) already exists.
+psql:gen.sql:1227: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(56244) already exists.
+psql:gen.sql:1228: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(56313) already exists.
+psql:gen.sql:1229: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(56529) already exists.
+psql:gen.sql:1230: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(56593) already exists.
+psql:gen.sql:1231: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(56776) already exists.
+psql:gen.sql:1232: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(56873) already exists.
+psql:gen.sql:1233: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(57179) already exists.
+psql:gen.sql:1234: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(57246) already exists.
+psql:gen.sql:1235: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(57301) already exists.
+psql:gen.sql:1236: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(57333) already exists.
+psql:gen.sql:1237: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(57369) already exists.
+psql:gen.sql:1238: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(57370) already exists.
+psql:gen.sql:1239: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(57379) already exists.
+psql:gen.sql:1240: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(57597) already exists.
+psql:gen.sql:1241: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(57866) already exists.
+psql:gen.sql:1242: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(58116) already exists.
+psql:gen.sql:1243: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(58136) already exists.
+psql:gen.sql:1244: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(58266) already exists.
+psql:gen.sql:1245: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(58836) already exists.
+psql:gen.sql:1246: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(58981) already exists.
+psql:gen.sql:1247: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(59015) already exists.
+psql:gen.sql:1248: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(59120) already exists.
+psql:gen.sql:1249: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(59233) already exists.
+psql:gen.sql:1250: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(59268) already exists.
+psql:gen.sql:1251: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(59611) already exists.
+psql:gen.sql:1252: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(59754) already exists.
+psql:gen.sql:1253: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(59944) already exists.
+psql:gen.sql:1254: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(60044) already exists.
+psql:gen.sql:1255: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(60147) already exists.
+psql:gen.sql:1256: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(60470) already exists.
+psql:gen.sql:1257: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(61101) already exists.
+psql:gen.sql:1258: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(61317) already exists.
+psql:gen.sql:1259: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(61861) already exists.
+psql:gen.sql:1260: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(62077) already exists.
+psql:gen.sql:1261: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(62452) already exists.
+psql:gen.sql:1262: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(62505) already exists.
+psql:gen.sql:1263: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(62722) already exists.
+psql:gen.sql:1264: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(62817) already exists.
+psql:gen.sql:1265: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(63011) already exists.
+psql:gen.sql:1266: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(63035) already exists.
+psql:gen.sql:1267: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(63126) already exists.
+psql:gen.sql:1268: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(63278) already exists.
+psql:gen.sql:1269: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(63401) already exists.
+psql:gen.sql:1270: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(63411) already exists.
+psql:gen.sql:1271: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(63803) already exists.
+psql:gen.sql:1272: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(64095) already exists.
+psql:gen.sql:1273: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(64098) already exists.
+psql:gen.sql:1274: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(64246) already exists.
+psql:gen.sql:1275: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(64281) already exists.
+psql:gen.sql:1276: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(64687) already exists.
+psql:gen.sql:1277: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(64705) already exists.
+psql:gen.sql:1278: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(65024) already exists.
+psql:gen.sql:1279: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(65468) already exists.
+psql:gen.sql:1280: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(65568) already exists.
+psql:gen.sql:1281: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(65861) already exists.
+psql:gen.sql:1282: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(65968) already exists.
+psql:gen.sql:1283: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(66418) already exists.
+psql:gen.sql:1284: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(66700) already exists.
+psql:gen.sql:1285: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(66768) already exists.
+psql:gen.sql:1286: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(67074) already exists.
+psql:gen.sql:1287: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(67346) already exists.
+psql:gen.sql:1288: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(67856) already exists.
+psql:gen.sql:1289: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(68516) already exists.
+psql:gen.sql:1290: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(68598) already exists.
+psql:gen.sql:1291: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(68674) already exists.
+psql:gen.sql:1292: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(68743) already exists.
+psql:gen.sql:1293: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(69407) already exists.
+psql:gen.sql:1294: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(69538) already exists.
+psql:gen.sql:1295: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(69671) already exists.
+psql:gen.sql:1296: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(69673) already exists.
+psql:gen.sql:1297: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(69996) already exists.
+psql:gen.sql:1298: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(70381) already exists.
+psql:gen.sql:1299: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(70692) already exists.
+psql:gen.sql:1300: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(70742) already exists.
+psql:gen.sql:1301: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(70827) already exists.
+psql:gen.sql:1302: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(71209) already exists.
+psql:gen.sql:1303: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(71331) already exists.
+psql:gen.sql:1304: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(71465) already exists.
+psql:gen.sql:1305: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(71869) already exists.
+psql:gen.sql:1306: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(71953) already exists.
+psql:gen.sql:1307: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(72560) already exists.
+psql:gen.sql:1308: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(72706) already exists.
+psql:gen.sql:1309: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(72747) already exists.
+psql:gen.sql:1310: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(73386) already exists.
+psql:gen.sql:1311: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(73398) already exists.
+psql:gen.sql:1312: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(73821) already exists.
+psql:gen.sql:1313: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(74088) already exists.
+psql:gen.sql:1314: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(74131) already exists.
+psql:gen.sql:1315: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(74259) already exists.
+psql:gen.sql:1316: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(74349) already exists.
+psql:gen.sql:1317: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(74484) already exists.
+psql:gen.sql:1318: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(74541) already exists.
+psql:gen.sql:1319: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(74568) already exists.
+psql:gen.sql:1320: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(74570) already exists.
+psql:gen.sql:1321: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(74635) already exists.
+psql:gen.sql:1322: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(75117) already exists.
+psql:gen.sql:1323: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(75383) already exists.
+psql:gen.sql:1324: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(75430) already exists.
+psql:gen.sql:1325: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(75946) already exists.
+psql:gen.sql:1326: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(76272) already exists.
+psql:gen.sql:1327: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(76427) already exists.
+psql:gen.sql:1328: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(76432) already exists.
+psql:gen.sql:1329: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(77796) already exists.
+psql:gen.sql:1330: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(77995) already exists.
+psql:gen.sql:1331: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(78017) already exists.
+psql:gen.sql:1332: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(78590) already exists.
+psql:gen.sql:1333: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(78838) already exists.
+psql:gen.sql:1334: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(78982) already exists.
+psql:gen.sql:1335: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(79089) already exists.
+psql:gen.sql:1336: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(79139) already exists.
+psql:gen.sql:1337: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(79275) already exists.
+psql:gen.sql:1338: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(79700) already exists.
+psql:gen.sql:1339: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(79739) already exists.
+psql:gen.sql:1340: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(79755) already exists.
+psql:gen.sql:1341: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(81024) already exists.
+psql:gen.sql:1342: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(81215) already exists.
+psql:gen.sql:1343: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(81261) already exists.
+psql:gen.sql:1344: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(81274) already exists.
+psql:gen.sql:1345: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(81295) already exists.
+psql:gen.sql:1346: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(81759) already exists.
+psql:gen.sql:1347: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(82169) already exists.
+psql:gen.sql:1348: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(82454) already exists.
+psql:gen.sql:1349: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(82484) already exists.
+psql:gen.sql:1350: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(82993) already exists.
+psql:gen.sql:1351: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(83081) already exists.
+psql:gen.sql:1352: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(83278) already exists.
+psql:gen.sql:1353: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(83311) already exists.
+psql:gen.sql:1354: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(83504) already exists.
+psql:gen.sql:1355: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(83604) already exists.
+psql:gen.sql:1356: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(84110) already exists.
+psql:gen.sql:1357: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(84143) already exists.
+psql:gen.sql:1358: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(84418) already exists.
+psql:gen.sql:1359: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(84539) already exists.
+psql:gen.sql:1360: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(84619) already exists.
+psql:gen.sql:1361: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(84635) already exists.
+psql:gen.sql:1362: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(84750) already exists.
+psql:gen.sql:1363: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(84794) already exists.
+psql:gen.sql:1364: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(84807) already exists.
+psql:gen.sql:1365: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(84947) already exists.
+psql:gen.sql:1366: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(85006) already exists.
+psql:gen.sql:1367: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(85062) already exists.
+psql:gen.sql:1368: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(85134) already exists.
+psql:gen.sql:1369: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(85514) already exists.
+psql:gen.sql:1370: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(85801) already exists.
+psql:gen.sql:1371: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(85936) already exists.
+psql:gen.sql:1372: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(85977) already exists.
+psql:gen.sql:1373: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(86123) already exists.
+psql:gen.sql:1374: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(86451) already exists.
+psql:gen.sql:1375: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(86599) already exists.
+psql:gen.sql:1376: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(86797) already exists.
+psql:gen.sql:1377: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(87165) already exists.
+psql:gen.sql:1378: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(87242) already exists.
+psql:gen.sql:1379: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(87409) already exists.
+psql:gen.sql:1380: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(87608) already exists.
+psql:gen.sql:1381: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(87786) already exists.
+psql:gen.sql:1382: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(87827) already exists.
+psql:gen.sql:1383: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(87864) already exists.
+psql:gen.sql:1384: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(87944) already exists.
+psql:gen.sql:1385: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(87971) already exists.
+psql:gen.sql:1386: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(88055) already exists.
+psql:gen.sql:1387: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(88221) already exists.
+psql:gen.sql:1388: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(88278) already exists.
+psql:gen.sql:1389: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(88357) already exists.
+psql:gen.sql:1390: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(89090) already exists.
+psql:gen.sql:1391: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(89564) already exists.
+psql:gen.sql:1392: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(89607) already exists.
+psql:gen.sql:1393: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(90061) already exists.
+psql:gen.sql:1394: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(91950) already exists.
+psql:gen.sql:1395: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(92211) already exists.
+psql:gen.sql:1396: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(92258) already exists.
+psql:gen.sql:1397: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(92276) already exists.
+psql:gen.sql:1398: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(92297) already exists.
+psql:gen.sql:1399: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(92536) already exists.
+psql:gen.sql:1400: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(92592) already exists.
+psql:gen.sql:1401: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(92595) already exists.
+psql:gen.sql:1402: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(92828) already exists.
+psql:gen.sql:1403: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(93594) already exists.
+psql:gen.sql:1404: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(94079) already exists.
+psql:gen.sql:1405: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(94238) already exists.
+psql:gen.sql:1406: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(94312) already exists.
+psql:gen.sql:1407: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(94578) already exists.
+psql:gen.sql:1408: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(94650) already exists.
+psql:gen.sql:1409: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(94756) already exists.
+psql:gen.sql:1410: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(94779) already exists.
+psql:gen.sql:1411: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(95036) already exists.
+psql:gen.sql:1412: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(95489) already exists.
+psql:gen.sql:1413: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(95555) already exists.
+psql:gen.sql:1414: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(95974) already exists.
+psql:gen.sql:1415: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(96010) already exists.
+psql:gen.sql:1416: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(96143) already exists.
+psql:gen.sql:1417: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(96674) already exists.
+psql:gen.sql:1418: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(96791) already exists.
+psql:gen.sql:1419: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(97139) already exists.
+psql:gen.sql:1420: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(97296) already exists.
+psql:gen.sql:1421: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(97376) already exists.
+psql:gen.sql:1422: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(97478) already exists.
+psql:gen.sql:1423: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(97596) already exists.
+psql:gen.sql:1424: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(97991) already exists.
+psql:gen.sql:1425: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(98146) already exists.
+psql:gen.sql:1426: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(98455) already exists.
+psql:gen.sql:1427: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(98896) already exists.
+psql:gen.sql:1428: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(99229) already exists.
+psql:gen.sql:1429: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(99275) already exists.
+psql:gen.sql:1430: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(99380) already exists.
+psql:gen.sql:1431: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(99390) already exists.
+psql:gen.sql:1432: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(99406) already exists.
+psql:gen.sql:1433: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(99566) already exists.
+psql:gen.sql:1434: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(99621) already exists.
+psql:gen.sql:1435: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(99648) already exists.
+psql:gen.sql:1436: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(109) already exists.
+psql:gen.sql:1437: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(547) already exists.
+psql:gen.sql:1438: ERROR:  duplicate key value violates unique constraint "lote_insumo_pkey"
+DETAIL:  Key (lote_insumo)=(801) already exists.
+psql:gen.sql:1551: ERROR:  duplicate key value violates unique constraint "preco_leite_uht_pkey"
+DETAIL:  Key (preco_leite_uht)=(1231) already exists.
+psql:gen.sql:1609: ERROR:  duplicate key value violates unique constraint "preco_leite_uht_pkey"
+DETAIL:  Key (preco_leite_uht)=(2821) already exists.
+psql:gen.sql:1657: ERROR:  duplicate key value violates unique constraint "preco_leite_uht_pkey"
+DETAIL:  Key (preco_leite_uht)=(220) already exists.
+psql:gen.sql:1659: ERROR:  duplicate key value violates unique constraint "preco_leite_uht_pkey"
+DETAIL:  Key (preco_leite_uht)=(2955) already exists.
+psql:gen.sql:1666: ERROR:  duplicate key value violates unique constraint "preco_leite_uht_pkey"
+DETAIL:  Key (preco_leite_uht)=(1226) already exists.
+psql:gen.sql:1689: ERROR:  duplicate key value violates unique constraint "preco_leite_uht_pkey"
+DETAIL:  Key (preco_leite_uht)=(4395) already exists.
+psql:gen.sql:1709: ERROR:  duplicate key value violates unique constraint "preco_leite_uht_pkey"
+DETAIL:  Key (preco_leite_uht)=(3509) already exists.
+psql:gen.sql:1803: ERROR:  duplicate key value violates unique constraint "preco_leite_uht_pkey"
+DETAIL:  Key (preco_leite_uht)=(2421) already exists.
+psql:gen.sql:1814: ERROR:  duplicate key value violates unique constraint "preco_leite_uht_pkey"
+DETAIL:  Key (preco_leite_uht)=(604) already exists.
+psql:gen.sql:1896: ERROR:  date/time field value out of range: "02/29/2002"
+LINE 1: INSERT INTO lote_leite_uht VALUES ('16978','02/29/2002','36'...
+                                                   ^
+psql:gen.sql:1897: ERROR:  date/time field value out of range: "02/29/2005"
+LINE 1: INSERT INTO lote_leite_uht VALUES ('17249','02/29/2005','73'...
+                                                   ^
+psql:gen.sql:1898: ERROR:  date/time field value out of range: "02/29/2009"
+LINE 1: INSERT INTO lote_leite_uht VALUES ('17459','02/29/2009','114...
+                                                   ^
+psql:gen.sql:2227: ERROR:  duplicate key value violates unique constraint "preco_queijo_pkey"
+DETAIL:  Key (preco_queijo)=(1231) already exists.
+psql:gen.sql:2285: ERROR:  duplicate key value violates unique constraint "preco_queijo_pkey"
+DETAIL:  Key (preco_queijo)=(2821) already exists.
+psql:gen.sql:2333: ERROR:  duplicate key value violates unique constraint "preco_queijo_pkey"
+DETAIL:  Key (preco_queijo)=(220) already exists.
+psql:gen.sql:2335: ERROR:  duplicate key value violates unique constraint "preco_queijo_pkey"
+DETAIL:  Key (preco_queijo)=(2955) already exists.
+psql:gen.sql:2342: ERROR:  duplicate key value violates unique constraint "preco_queijo_pkey"
+DETAIL:  Key (preco_queijo)=(1226) already exists.
+psql:gen.sql:2365: ERROR:  duplicate key value violates unique constraint "preco_queijo_pkey"
+DETAIL:  Key (preco_queijo)=(4395) already exists.
+psql:gen.sql:2385: ERROR:  duplicate key value violates unique constraint "preco_queijo_pkey"
+DETAIL:  Key (preco_queijo)=(3509) already exists.
+psql:gen.sql:2479: ERROR:  duplicate key value violates unique constraint "preco_queijo_pkey"
+DETAIL:  Key (preco_queijo)=(2421) already exists.
+psql:gen.sql:2490: ERROR:  duplicate key value violates unique constraint "preco_queijo_pkey"
+DETAIL:  Key (preco_queijo)=(604) already exists.
+psql:gen.sql:2513: ERROR:  duplicate key value violates unique constraint "preco_queijo_pkey"
+DETAIL:  Key (preco_queijo)=(2095) already exists.
+psql:gen.sql:2518: ERROR:  duplicate key value violates unique constraint "preco_queijo_pkey"
+DETAIL:  Key (preco_queijo)=(1911) already exists.
+psql:gen.sql:2554: ERROR:  duplicate key value violates unique constraint "preco_queijo_pkey"
+DETAIL:  Key (preco_queijo)=(1690) already exists.
+psql:gen.sql:2561: ERROR:  duplicate key value violates unique constraint "preco_queijo_pkey"
+DETAIL:  Key (preco_queijo)=(3265) already exists.
+psql:gen.sql:2580: ERROR:  duplicate key value violates unique constraint "preco_queijo_pkey"
+DETAIL:  Key (preco_queijo)=(443) already exists.
+psql:gen.sql:2671: ERROR:  date/time field value out of range: "02/29/2002"
+LINE 1: INSERT INTO lote_queijo VALUES ('16978','02/29/2002','36','D...
+                                                ^
+psql:gen.sql:2672: ERROR:  date/time field value out of range: "02/29/2005"
+LINE 1: INSERT INTO lote_queijo VALUES ('17249','02/29/2005','73','E...
+                                                ^
+psql:gen.sql:2673: ERROR:  date/time field value out of range: "02/29/2009"
+LINE 1: INSERT INTO lote_queijo VALUES ('17459','02/29/2009','114','...
+                                                ^
+psql:gen.sql:3125: ERROR:  date/time field value out of range: "02/29/2002"
+LINE 1: INSERT INTO lote_manteiga VALUES ('16978','02/29/2002','36',...
+                                                  ^
+psql:gen.sql:3126: ERROR:  date/time field value out of range: "02/29/2005"
+LINE 1: INSERT INTO lote_manteiga VALUES ('17249','02/29/2005','73',...
+                                                  ^
+psql:gen.sql:3127: ERROR:  date/time field value out of range: "02/29/2009"
+LINE 1: INSERT INTO lote_manteiga VALUES ('17459','02/29/2009','114'...
+                                                  ^
+psql:gen.sql:3360: ERROR:  duplicate key value violates unique constraint "preco_manteiga_pkey"
+DETAIL:  Key (preco_manteiga)=(1231) already exists.
+psql:gen.sql:3418: ERROR:  duplicate key value violates unique constraint "preco_manteiga_pkey"
+DETAIL:  Key (preco_manteiga)=(2821) already exists.
+psql:gen.sql:3466: ERROR:  duplicate key value violates unique constraint "preco_manteiga_pkey"
+DETAIL:  Key (preco_manteiga)=(220) already exists.
+psql:gen.sql:3468: ERROR:  duplicate key value violates unique constraint "preco_manteiga_pkey"
+DETAIL:  Key (preco_manteiga)=(2955) already exists.
+psql:gen.sql:3475: ERROR:  duplicate key value violates unique constraint "preco_manteiga_pkey"
+DETAIL:  Key (preco_manteiga)=(1226) already exists.
+psql:gen.sql:3498: ERROR:  duplicate key value violates unique constraint "preco_manteiga_pkey"
+DETAIL:  Key (preco_manteiga)=(4395) already exists.
+psql:gen.sql:3518: ERROR:  duplicate key value violates unique constraint "preco_manteiga_pkey"
+DETAIL:  Key (preco_manteiga)=(3509) already exists.
