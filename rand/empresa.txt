@@ -1,7 +1,6 @@
 Nacional Soft
 AmBev  Bebidas
-Itaú Unibanco
-Habib's  Restaurantes
+Itau Unibanco
 Ultrapar  Energia
 OceanAir  Companhia
 Localiza  Aluguel
@@ -143,10 +142,10 @@ TRIP Linhas
 Golden Cross
 Panapaná Bijuterias
 Lojas Riachuelo
-Azaleia  Vestuário,
+Azaleia  Vestuário
 EBX  Conglomerado
 Intelbras  Tecnologia
-Bob's  Restaurantes
+Bobs  Restaurantes
 Light  Utilitários
 Rede Globo
 Brasil Foods

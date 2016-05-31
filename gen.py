@@ -172,10 +172,11 @@ def list_from_file(filename):
         return [line.rstrip() for line in f]
 
 """
-gets a random value from a list
+gets a value from list of values
 """
-def rand_val(lst):
-    return lst[rand.randint(0, len(lst)-1)] 
+def get_val(lists, tp, index):
+    values = lists[PARAMS_TYPES[tp]]
+    return values[index % len(values)]
 
 """
 generates sql command
@@ -200,7 +201,7 @@ def gen(num, output):
     lists = dict((tp, list_from_file(RAND_DIR + "/" + tp + ".txt")) \
         for tp in TYPES)
 
-    get_val = lambda tp: rand_val(lists[PARAMS_TYPES[tp]])
+    #get_val = lambda tp, index: lists[PARAMS_TYPES[tp]][index]
 
     tables = {}
 
@@ -213,7 +214,7 @@ def gen(num, output):
                 vals[tp] = tables[dep_name][dep_tp]
         for tp in types:
             if not tp in vals:
-                vals[tp] = [get_val(tp) for __ in range(num)]
+                vals[tp] = [get_val(lists, tp, i) for i in range(num)]
 
         for i in range(num):
             tup_vals = [vals[tp][i] for tp in types]
@@ -237,10 +238,14 @@ def main():
 
     if len(sys.argv) > 2:
         output = open(sys.argv[2], "w")
+        end_msg = "records created"
     else:
         output = sys.stdout
+        end_msg = ""
 
     gen(num, output)
+
+    print end_msg
 
 if __name__ == "__main__":
     main()
