@@ -1,4 +1,4 @@
-SET datestyle TO postgres, dmy; 
+SET datestyle = "ISO, DMY";
 
 create table cliente (
 	cnpj bigint,
@@ -64,15 +64,15 @@ create table leite_uht (
 	lote_leite_uht integer,
 	local varchar(256),
 	preco_leite_uht integer,
-	cnpj_cliente bigint,
-	cnpj_transportadora bigint,
+	/*cnpj_cliente bigint,*/
+	/*cnpj_transportadora bigint,*/
 	data date,
 	primary key(id),
 	foreign key(lote_leite_uht) references lote_leite_uht(lote_leite_uht),
 	foreign key(local) references estoque(local),
-	foreign key(preco_leite_uht) references preco_leite_uht(preco_leite_uht),
-	foreign key(cnpj_cliente) references cliente(cnpj),
-	foreign key(cnpj_transportadora) references transportadora(cnpj)
+	foreign key(preco_leite_uht) references preco_leite_uht(preco_leite_uht)
+	/*foreign key(cnpj_cliente) references cliente(cnpj),*/
+	/*foreign key(cnpj_transportadora) references transportadora(cnpj)*/
 );
 
 create table preco_queijo (
@@ -80,7 +80,6 @@ create table preco_queijo (
 	margem_de_lucro real,
 	primary key(preco_queijo)
 );
-
 create table lote_queijo (
 	lote_queijo integer  ,
 	data_fab date,
@@ -94,15 +93,15 @@ create table queijo (
 	lote_queijo integer,
 	local varchar(256),
 	preco_queijo integer,
-	cnpj_cliente bigint,
-	cnpj_transportadora bigint,
+	/*cnpj_cliente bigint,*/
+	/*cnpj_transportadora bigint,*/
 	data date,
 	primary key(id),
 	foreign key(lote_queijo) references lote_queijo(lote_queijo),
 	foreign key(local) references estoque(local),
-	foreign key(preco_queijo) references preco_queijo(preco_queijo),
-	foreign key(cnpj_cliente) references cliente(cnpj),
-	foreign key(cnpj_transportadora) references transportadora(cnpj)
+	foreign key(preco_queijo) references preco_queijo(preco_queijo)
+	/*foreign key(cnpj_cliente) references cliente(cnpj),*/
+	/*foreign key(cnpj_transportadora) references transportadora(cnpj)*/
 );
 
 create table lote_manteiga (
@@ -124,15 +123,15 @@ create table manteiga (
 	lote_manteiga integer,
 	local varchar(256),
 	preco_manteiga integer,
-	cnpj_cliente bigint,
-	cnpj_transportadora bigint,
+	/*cnpj_cliente bigint,*/
+	/*cnpj_transportadora bigint,*/
 	data date,
 	primary key(id),
 	foreign key(lote_manteiga) references lote_manteiga(lote_manteiga),
 	foreign key(local) references estoque(local),
-	foreign key(preco_manteiga) references preco_manteiga(preco_manteiga),
-	foreign key(cnpj_cliente) references cliente(cnpj),
-	foreign key(cnpj_transportadora) references transportadora(cnpj)
+	foreign key(preco_manteiga) references preco_manteiga(preco_manteiga)
+	/*foreign key(cnpj_cliente) references cliente(cnpj),*/
+	/*foreign key(cnpj_transportadora) references transportadora(cnpj)*/
 );
 
 create table pessoa (
@@ -219,4 +218,31 @@ create table entrega_manteiga (
 	primary key(id),
 	foreign key(id) references manteiga(id),
 	foreign key(cnpj) references transportadora(cnpj)
+);
+
+create table compra_leite_uht (
+	id bigint,
+	cnpj bigint,
+	data date,
+	primary key(id),
+	foreign key(id) references leite_uht(id),
+	foreign key(cnpj) references cliente(cnpj)
+);
+
+create table compra_queijo (
+	id bigint,
+	cnpj bigint,
+	data date,
+	primary key(id),
+	foreign key(id) references queijo(id),
+	foreign key(cnpj) references cliente(cnpj)
+);
+
+create table compra_manteiga (
+	id bigint,
+	cnpj bigint,
+	data date,
+	primary key(id),
+	foreign key(id) references manteiga(id),
+	foreign key(cnpj) references cliente(cnpj)
 );

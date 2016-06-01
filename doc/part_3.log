@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.1.4)  31 MAY 2016 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.1.4)  31 MAY 2016 18:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -495,8 +495,18 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
- [2]
-(/home/erik/proj/db/doc/part_3.aux) ) 
+
+Overfull \hbox (0.94466pt too wide) in paragraph at lines 63--65
+[]\T1/cmr/m/n/10.95 PRECO_MANTEIGA(preco_manteiga*, mar-gem_de_lucro) -- 47 tu-
+
+ []
+
+
+Overfull \hbox (1.58702pt too wide) in paragraph at lines 70--71
+[]\T1/cmr/m/n/10.95 E_RESPONSAVEL_POR_TRANSPORTADORA([cpf, cnpj]*) -- 132
+ []
+
+[2] [3] (/home/erik/proj/db/doc/part_3.aux) ) 
 Here is how much of TeX's memory you used:
  3124 strings out of 493054
  39186 string characters out of 6140587
@@ -505,17 +515,18 @@ Here is how much of TeX's memory you used:
  14472 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,6n,24p,245b,203s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-
-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist
-/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
-fti1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on part_3.pdf (2 pages, 118539 bytes).
+{/usr/share/texmf-dist/fonts/enc/d
+vips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
+></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/te
+xmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/
+type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm
+-super/sfti1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095
+.pfb>
+Output written on part_3.pdf (3 pages, 122631 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "./gen.py", line 290, in <module>
+    main()
+  File "./gen.py", line 285, in main
+    gen(output)
+  File "./gen.py", line 257, in gen
+    vals[tp] = [get_val(lists, tp, i) for i in range(num)]
+  File "./gen.py", line 204, in get_val
+    return values[index % len(values)]
+ZeroDivisionError: integer division or modulo by zero

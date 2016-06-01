@@ -62,17 +62,19 @@ TABLES = {
     "insumo":\
         ("id", "lote_insumo", "preco", "tipo_gado_origem", "cnpj", "data"),
     "lote_insumo": ("lote_insumo", "data_fab", "validade"), 
-    "leite_uht":\
-        ("id", "lote_leite_uht", "local", "preco_leite_uht", 
-            "cnpj_cliente", "cnpj_transportadora", "data"),
+    "leite_uht": ("id", "lote_leite_uht", "local", "preco_leite_uht", "data"),
+        #("id", "lote_leite_uht", "local", "preco_leite_uht", 
+        #    "cnpj_cliente", "cnpj_transportadora", "data"),
     "lote_leite_uht": ("lote_leite_uht", "data_fab", "validade", "qualidade"), 
     "preco_leite_uht": ("preco_leite_uht", "margem_de_lucro"),
-    "queijo": ("id", "lote_queijo", "local", "preco_queijo", 
-                  "cnpj_cliente", "cnpj_transportadora", "data"),
+    "queijo": ("id", "lote_queijo", "local", "preco_queijo", "data"),
+        #("id", "lote_queijo", "local", "preco_queijo", 
+              #"cnpj_cliente", "cnpj_transportadora", "data"),
     "lote_queijo": ("lote_queijo", "data_fab", "validade", "qualidade"), 
     "preco_queijo": ("preco_queijo", "margem_de_lucro"),
-    "manteiga": ("id", "lote_manteiga", "local", "preco_manteiga",
-                    "cnpj_cliente", "cnpj_transportadora", "data"),
+    "manteiga": ("id", "lote_manteiga", "local", "preco_manteiga", "data"),
+        #("id", "lote_manteiga", "local", "preco_manteiga",
+        #    "cnpj_cliente", "cnpj_transportadora", "data"),
     "lote_manteiga": ("lote_manteiga", "data_fab", "validade", "qualidade"), 
     "preco_manteiga": ("preco_manteiga", "margem_de_lucro"),
     "pessoa": ("cpf", "nome", "telefone"),
@@ -82,7 +84,10 @@ TABLES = {
     "e_responsavel_por_cliente": ("cpf", "cnpj"),
     "entrega_leite_uht": ("id", "cnpj", "data"),
     "entrega_queijo": ("id", "cnpj", "data"),
-    "entrega_manteiga": ("id", "cnpj", "data")
+    "entrega_manteiga": ("id", "cnpj", "data"),
+    "compra_leite_uht": ("id", "cnpj", "data"),
+    "compra_queijo": ("id", "cnpj", "data"),
+    "compra_manteiga": ("id", "cnpj", "data")
 }
 
 TABLES_ORDER = [
@@ -107,85 +112,103 @@ TABLES_ORDER = [
     "e_responsavel_por_cliente",
     "entrega_leite_uht",
     "entrega_queijo",
-    "entrega_manteiga"
+    "entrega_manteiga",
+    "compra_leite_uht",
+    "compra_queijo",
+    "compra_manteiga"
 ]
 
 TABLES_NUM = {
     "cliente": 234,
-    "fornecedor": 58,
+    "fornecedor": 158,
     "transportadora": 111,
-    "estoque": 34,
-    "lote_insumo": 1001,#9001,
-    #"insumo": 1001,
-    "preco_leite_uht": 321,
-    "lote_leite_uht": 321,
-    #"leite_uht",
-    "preco_queijo": 420,
-    "lote_queijo": 420,
-    #"queijo",
-    "lote_manteiga": 259,
-    "preco_manteiga": 259,
-    #"manteiga",
-    "pessoa": 342,
-    #"e_responsavel_por_transportadora",
-    #"e_responsavel_por_fornecedor",
-    #"e_responsavel_por_cliente",
-    #"entrega_leite_uht",
-    #"entrega_queijo",
-    #"entrega_manteiga"
+    "estoque": 108,
+    "lote_insumo": 243,
+    "insumo": 9001,
+    "preco_leite_uht": 92,
+    "lote_leite_uht": 122,
+    "leite_uht": 3321,
+    "preco_queijo": 39,
+    "lote_queijo": 183,
+    "queijo": 2343,
+    "lote_manteiga": 108,
+    "preco_manteiga": 47,
+    "manteiga": 3337,
+    "pessoa": 643,
+    "e_responsavel_por_transportadora": 132,
+    "e_responsavel_por_fornecedor": 201,
+    "e_responsavel_por_cliente": 310,
+    "entrega_leite_uht": 2131,
+    "entrega_queijo": 1322,
+    "entrega_manteiga": 1123,
+    "compra_leite_uht": 989,
+    "compra_queijo": 560,
+    "compra_manteiga": 729 
 }
 
 #foreign keys specification
-#(param_posit, relation_name, relation_param_posit)
+#(param_posit, relation_name, relation_param_posit, prob_null)
 DEPS = {
     "insumo": [
-        ("lote_insumo", "lote_insumo", "lote_insumo"),
-        ("cnpj", "fornecedor", "cnpj")
+        ("lote_insumo", "lote_insumo", "lote_insumo", 0.0),
+        ("cnpj", "fornecedor", "cnpj", 0.0)
     ],
     "leite_uht": [
-        ("lote_leite_uht", "lote_leite_uht", "lote_leite_uht"),
-        ("local", "estoque", "local"),
-        ("preco_leite_uht", "preco_leite_uht", "preco_leite_uht"),
-        ("cnpj_cliente", "cliente", "cnpj"),
-        ("cnpj_transportadora", "transportadora", "cnpj")
+        ("lote_leite_uht", "lote_leite_uht", "lote_leite_uht", 0.0),
+        ("local", "estoque", "local", 0.0),
+        ("preco_leite_uht", "preco_leite_uht", "preco_leite_uht", 0.0),
+        #("cnpj_cliente", "cliente", "cnpj", 0.33),
+        #("cnpj_transportadora", "transportadora", "cnpj", 0.0)
     ],
     "queijo": [
-        ("lote_queijo", "lote_queijo", "lote_queijo"),
-        ("local", "estoque", "local"),
-        ("preco_queijo", "preco_queijo", "preco_queijo"),
-        ("cnpj_cliente", "cliente", "cnpj"),
-        ("cnpj_transportadora", "transportadora", "cnpj")
+        ("lote_queijo", "lote_queijo", "lote_queijo", 0.0),
+        ("local", "estoque", "local", 0.0),
+        ("preco_queijo", "preco_queijo", "preco_queijo", 0.0),
+        #("cnpj_cliente", "cliente", "cnpj", 0.33),
+        #("cnpj_transportadora", "transportadora", "cnpj", 0.33)
     ],
     "manteiga": [
-        ("lote_manteiga", "lote_manteiga", "lote_manteiga"),
-        ("local", "estoque", "local"),
-        ("preco_manteiga", "preco_manteiga", "preco_manteiga"),
-        ("cnpj_cliente", "cliente", "cnpj"),
-        ("cnpj_transportadora", "transportadora", "cnpj")
+        ("lote_manteiga", "lote_manteiga", "lote_manteiga", 0.0),
+        ("local", "estoque", "local", 0.0),
+        ("preco_manteiga", "preco_manteiga", "preco_manteiga", 0.0),
+        #("cnpj_cliente", "cliente", "cnpj", 0.33),
+        #("cnpj_transportadora", "transportadora", "cnpj", 0.33)
     ],
     "e_responsavel_por_transportadora": [
-        ("cpf", "pessoa", "cpf"),
-        ("cnpj", "transportadora", "cnpj")
+        ("cpf", "pessoa", "cpf", 0.0),
+        ("cnpj", "transportadora", "cnpj", 0.0)
     ],
     "e_responsavel_por_fornecedor": [
-        ("cpf", "pessoa", "cpf"),
-        ("cnpj", "fornecedor", "cnpj")
+        ("cpf", "pessoa", "cpf", 0.0),
+        ("cnpj", "fornecedor", "cnpj", 0.0)
     ],
     "e_responsavel_por_cliente": [
-        ("cpf", "pessoa", "cpf"),
-        ("cnpj", "cliente", "cnpj")
+        ("cpf", "pessoa", "cpf", 0.0),
+        ("cnpj", "cliente", "cnpj", 0.0)
     ],
     "entrega_leite_uht": [
-        ("id", "leite_uht", "id"),
-        ("cnpj", "transportadora", "cnpj")
+        ("id", "leite_uht", "id", 0.0),
+        ("cnpj", "transportadora", "cnpj", 0.0)
     ],
     "entrega_queijo": [
-        ("id", "queijo", "id"),
-        ("cnpj", "transportadora", "cnpj")
+        ("id", "queijo", "id", 0.0),
+        ("cnpj", "transportadora", "cnpj", 0.0)
     ],
     "entrega_manteiga": [
-        ("id", "manteiga", "id"),
-        ("cnpj", "transportadora", "cnpj")
+        ("id", "manteiga", "id", 0.0),
+        ("cnpj", "transportadora", "cnpj", 0.0)
+    ],
+    "compra_leite_uht": [
+        ("id", "leite_uht", "id", 0.0),
+        ("cnpj", "cliente", "cnpj", 0.0)
+    ],
+    "compra_queijo": [
+        ("id", "queijo", "id", 0.0),
+        ("cnpj", "cliente", "cnpj", 0.0)
+    ],
+    "compra_manteiga": [
+        ("id", "manteiga", "id", 0.0),
+        ("cnpj", "cliente", "cnpj", 0.0)
     ]
 }
 
@@ -201,14 +224,23 @@ gets a value from list of values
 """
 def get_val(lists, tp, index):
     values = lists[PARAMS_TYPES[tp]]
-    return values[index % len(values)]
+    return "'%s'" % values[index % len(values)]
 
+"""
+gets a random value from list of values
+"""
+def get_rand_val(values, prob_null=0.0):
+    if rand.uniform(0.0, 1.0) < prob_null:
+        return "null" 
+    else:
+        return "%s" % values[rand.randint(0, len(values)-1)]
+        
 """
 generates sql command
 """
 def sql_cmd(table_name, table_values):
     return "INSERT INTO %s VALUES (%s)" % \
-        (table_name, ",".join("'%s'" % n for n in table_values))
+        (table_name, ",".join("%s" % n for n in table_values))
 
 """
 generates tables values
@@ -221,6 +253,7 @@ def gen(output):
 
     #cur = conn.cursor()
 
+    output.write("SET datestyle = 'ISO, DMY';\n")
     #getting random values from files
     #assumes each type file is named 'type.txt'
     lists = dict((tp, list_from_file(RAND_DIR + "/" + tp + ".txt")) \
@@ -229,24 +262,26 @@ def gen(output):
     tables = {}
 
     for name in TABLES_ORDER:
+        print "in relation '%s' ..." % name,
         types = TABLES[name]
         vals = {}        
-        print "in relation '%s' ..." % name,
+        num = TABLES_NUM[name]
+
         if name in DEPS:
-            num = min([len(tables[n][t]) for __, n, t in DEPS[name]])
+            #num = max([len(tables[n][t]) for __, n, t in DEPS[name]])
             for dep in DEPS[name]:
-                tp, dep_name, dep_tp = dep
+                tp, dep_name, dep_tp, prob_null = dep
                 vals[tp] = tables[dep_name][dep_tp]
-                #print "dep", dep_name
                 v_num = len(vals[tp])
-                #print "nums:", v_num, num
                 if num > v_num:
-                    vals[tp] += \
-                        [get_val(lists, tp, i) for i in range(num - v_num)]
-        else:
-            num = TABLES_NUM[name]
-        #num = max([0] + [len(vals[k]) for k in vals])
-        #print "newnum=", num
+                    vals[tp] += [get_rand_val(vals[tp], prob_null) \
+                        for i in range(num - v_num)]
+                else:
+                    vals[tp] = vals[tp][:num]
+                        #[vals[tp][rand.randint(0, len(vals[tp])-1)] \
+                        #    for i in range(num - v_num)]
+                        #[get_val(lists, tp, i) for i in range(num - v_num)]
+
         for tp in types:
             if not tp in vals:
                 vals[tp] = [get_val(lists, tp, i) for i in range(num)]
@@ -256,6 +291,7 @@ def gen(output):
 
         for i in range(num):
             tup_vals = [vals[tp][i] for tp in types]
+            #print tup_vals
             cmd = sql_cmd(name, tup_vals)
             output.write(cmd + ";\n")
             #cur.execute(cmd)

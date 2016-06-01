@@ -37,31 +37,43 @@ uma pequena renomeação de \ttt{leite} para \ttt{leite\_uht}.
 
 \begin{itemize}
 	\item CLIENTE(cnpj*, razao\_social) -- 234 tuplas
-	\item FORNECEDOR(cnpj*, razao\_social) -- 58 tuplas
+	\item FORNECEDOR(cnpj*, razao\_social) -- 158 tuplas
 	\item TRANSPORTADORA(cnpj*, razao\_social) -- 111 tuplas
 
 	\item INSUMO(id*, lote\_insumo, preco, tipo\_gado\_origem, cnpj, data) 
 		-- 9001 tuplas
-	\item LOTE\_INSUMO(lote\_insumo*, data\_fab, validade) -- 9001 tuplas
+	\item LOTE\_INSUMO(lote\_insumo*, data\_fab, validade) -- 243 tuplas
 
-	\item LEITE\_UHT(id*, lote\_leite, local, preco\_leite, cnpj, data) -- 
-	\item LOTE\_LEITE\_UHT(lote\_leite*, data\_fab, validade,  qualidade)
-	\item PRECO\_LEITE\_UHT(preco\_leite*, margem\_de\_lucro)
+	\item LEITE\_UHT(id*, lote\_leite, local, preco\_leite, cnpj, data) 
+		-- 3321 tuplas
+	\item LOTE\_LEITE\_UHT(lote\_leite*, data\_fab, validade,  qualidade) 
+		-- 122 tuplas
+	\item PRECO\_LEITE\_UHT(preco\_leite*, margem\_de\_lucro) -- 92 tuplas
 
-	\item QUEIJO(id*, lote\_queijo, local, preco\_queijo, cnpj, data)
-	\item LOTE\_QUEIJO(lote\_queijo*, data\_fab, validade,  qualidade)
-	\item PRECO\_QUEIJO(preco\_queijo*, margem\_de\_lucro)
+	\item QUEIJO(id*, lote\_queijo, local, preco\_queijo, cnpj, data) 
+		-- 2343 tuplas
+	\item LOTE\_QUEIJO(lote\_queijo*, data\_fab, validade,  qualidade) 
+		-- 183 tuplas
+	\item PRECO\_QUEIJO(preco\_queijo*, margem\_de\_lucro) 
+		-- 39 tuplas
 
 	\item MANTEIGA(id*, lote\_manteiga, local, preco\_manteiga, cnpj, data)
-	\item LOTE\_MANTEIGA(lote\_manteiga*, data\_fab, validade,  qualidade, com\_sal,)
+		-- 3337
+	\item LOTE\_MANTEIGA(lote\_manteiga*, data\_fab, validade,  qualidade, com\_sal,) -- 108 tuplas
 	\item PRECO\_MANTEIGA(preco\_manteiga*, margem\_de\_lucro)
+		-- 47 tuplas
 
-	\item PESSOA(cpf*, nome, telefone)
+	\item PESSOA(cpf*, nome, telefone) -- 643 tuplas
 
-	\item ESTOQUE(local*, capacidade, volume\_atual)
+	\item ESTOQUE(local*, capacidade, volume\_atual) -- 108 tuplas
 
-	\item E\_RESPONSAVEL\_POR([cpf, cnpj]*)
-	\item ENTREGA(id*, cnpj, data)
+	\item E\_RESPONSAVEL\_POR\_TRANSPORTADORA([cpf, cnpj]*) -- 132 tuplas
+	\item E\_RESPONSAVEL\_POR\_FORNECEDOR([cpf, cnpj]*) -- 201 tuplas
+	\item E\_RESPONSAVEL\_POR\_CLIENTE([cpf, cnpj]*) -- 310 tuplas
+
+	\item ENTREGA\_LEITE\_UHT(id*, cnpj, data) -- 2300 tuplas
+	\item ENTREGA\_QUEIJO(id*, cnpj, data) -- 1989 tuplas
+	\item ENTREGA\_MANTEIGA(id*, cnpj, data) -- 2012 tuplas
 \end{itemize}
 
 \end{document}

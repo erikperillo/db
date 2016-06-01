@@ -15,6 +15,6 @@ rand_alphanum()
 
 rand_date()
 {
-	printf "%0.2d/%0.2d/%0.2d\n" $((1 + RANDOM%29)) $((1 + RANDOM%12)) $((1990 + RANDOM%26))
-	#printf "%0.2d/%0.2d/%0.2d\n" $((1 + RANDOM%12)) $((1 + RANDOM%29)) $((1990 + RANDOM%26))
+	#printf "%0.2d/%0.2d/%0.2d\n" $((1 + RANDOM%28)) $((1 + RANDOM%12)) $((1990 + RANDOM%26))
+	printf "%0.2d/%0.2d/%0.2d\n" $((1 + RANDOM%12)) $((1 + RANDOM%28)) $((1990 + RANDOM%26))
 }
