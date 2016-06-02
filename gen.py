@@ -138,9 +138,9 @@ TABLES_NUM = {
     "e_responsavel_por_transportadora": 132,
     "e_responsavel_por_fornecedor": 201,
     "e_responsavel_por_cliente": 310,
-    "entrega_leite_uht": 2131,
-    "entrega_queijo": 1322,
-    "entrega_manteiga": 1123,
+    "entrega_leite_uht": 831,
+    "entrega_queijo": 322,
+    "entrega_manteiga": 523,
     "compra_leite_uht": 989,
     "compra_queijo": 560,
     "compra_manteiga": 729 

@@ -28,52 +28,148 @@
 \section{Esquema efetivamente implementado}
 \paragraph{}
 Observações: houve poucas alterações no esquema da parte 2. 
-A única coisa que mudou foi que a relação \tit{gera} foi removida pois 
+A relação \tit{gera} foi removida pois 
 revelou-se não ser necessária aos serviços que implementamos.
 As relações \tit{entrega} e \tit{e\_responsavel\_por} foram especializadas
 para suas versões relativas \ttt{leite\_uht, queijo, manteiga} e 
-\ttt{transportadora, fornecedor, cliente}, respectivamente. Houve também
-uma pequena renomeação de \ttt{leite} para \ttt{leite\_uht}.
+\ttt{transportadora, fornecedor, cliente}, respectivamente. 
+A relação \tit{compra} foi criada para \ttt{leite\_uht, queijo, manteiga}.
+Houve também uma pequena renomeação de \ttt{leite} para \ttt{leite\_uht}.
 
 \begin{itemize}
-	\item CLIENTE(cnpj*, razao\_social) -- 234 tuplas
-	\item FORNECEDOR(cnpj*, razao\_social) -- 158 tuplas
-	\item TRANSPORTADORA(cnpj*, razao\_social) -- 111 tuplas
-
-	\item INSUMO(id*, lote\_insumo, preco, tipo\_gado\_origem, cnpj, data) 
+	\item \tbf{CLIENTE}(cnpj*, razao\_social) -- 234 tuplas
+	\item \tbf{FORNECEDOR}(cnpj*, razao\_social) -- 158 tuplas
+	\item \tbf{TRANSPORTADORA}(cnpj*, razao\_social) -- 111 tuplas
+	\item \tbf{INSUMO}(id*, lote\_insumo, preco, tipo\_gado\_origem, cnpj, data) 
 		-- 9001 tuplas
-	\item LOTE\_INSUMO(lote\_insumo*, data\_fab, validade) -- 243 tuplas
-
-	\item LEITE\_UHT(id*, lote\_leite, local, preco\_leite, cnpj, data) 
+	\item \tbf{LOTE\_INSUMO}(lote\_insumo*, data\_fab, validade) -- 243 tuplas
+	\item \tbf{LEITE\_UHT}(id*, lote\_leite, local, preco\_leite, cnpj, data) 
 		-- 3321 tuplas
-	\item LOTE\_LEITE\_UHT(lote\_leite*, data\_fab, validade,  qualidade) 
+	\item \tbf{LOTE\_LEITE\_UHT}(lote\_leite*, data\_fab, validade,  qualidade) 
 		-- 122 tuplas
-	\item PRECO\_LEITE\_UHT(preco\_leite*, margem\_de\_lucro) -- 92 tuplas
-
-	\item QUEIJO(id*, lote\_queijo, local, preco\_queijo, cnpj, data) 
+	\item \tbf{PRECO\_LEITE\_UHT}(preco\_leite*, margem\_de\_lucro) -- 92 tuplas
+	\item \tbf{QUEIJO}(id*, lote\_queijo, local, preco\_queijo, cnpj, data) 
 		-- 2343 tuplas
-	\item LOTE\_QUEIJO(lote\_queijo*, data\_fab, validade,  qualidade) 
+	\item \tbf{LOTE\_QUEIJO}(lote\_queijo*, data\_fab, validade,  qualidade) 
 		-- 183 tuplas
-	\item PRECO\_QUEIJO(preco\_queijo*, margem\_de\_lucro) 
+	\item \tbf{PRECO\_QUEIJO}(preco\_queijo*, margem\_de\_lucro) 
 		-- 39 tuplas
-
-	\item MANTEIGA(id*, lote\_manteiga, local, preco\_manteiga, cnpj, data)
+	\item \tbf{MANTEIGA}(id*, lote\_manteiga, local, preco\_manteiga, cnpj, data)
 		-- 3337
-	\item LOTE\_MANTEIGA(lote\_manteiga*, data\_fab, validade,  qualidade, com\_sal,) -- 108 tuplas
-	\item PRECO\_MANTEIGA(preco\_manteiga*, margem\_de\_lucro)
+	\item \tbf{LOTE\_MANTEIGA}(lote\_manteiga*, data\_fab, validade,  qualidade, com\_sal,) -- 108 tuplas
+	\item \tbf{PRECO\_MANTEIGA}(preco\_manteiga*, margem\_de\_lucro)
 		-- 47 tuplas
+	\item \tbf{PESSOA}(cpf*, nome, telefone) -- 643 tuplas
+	\item \tbf{ESTOQUE}(local*, capacidade, volume\_atual) -- 108 tuplas
+	\item \tbf{E\_RESPONSAVEL\_POR\_TRANSPORTADORA}([cpf, cnpj]*) -- 132 tuplas
+	\item \tbf{E\_RESPONSAVEL\_POR\_FORNECEDOR}([cpf, cnpj]*) -- 201 tuplas
+	\item \tbf{E\_RESPONSAVEL\_POR\_CLIENTE}([cpf, cnpj]*) -- 310 tuplas
+	\item \tbf{ENTREGA\_LEITE\_UHT}(id*, cnpj, data) -- 831 tuplas
+	\item \tbf{ENTREGA\_QUEIJO}(id*, cnpj, data) -- 322 tuplas
+	\item \tbf{ENTREGA\_MANTEIGA}(id*, cnpj, data) -- 523 tuplas
+	\item \tbf{COMPRA\_LEITE\_UHT}(id*, cnpj, data) -- 989 tuplas
+	\item \tbf{COMPRA\_QUEIJO}(id*, cnpj, data) -- 560 tuplas
+	\item \tbf{COMPRA\_MANTEIGA}(id*, cnpj, data) -- 729 tuplas
+\end{itemize}
 
-	\item PESSOA(cpf*, nome, telefone) -- 643 tuplas
+\section{Lista de consultas}
 
-	\item ESTOQUE(local*, capacidade, volume\_atual) -- 108 tuplas
+\begin{itemize}
+\item Quantidade de cada produto em estoque:
+	\ttt{
+	\begin{itemize}
+    	\item SELECT COUNT(id) FROM leite\_uht WHERE id NOT IN 
+			(SELECT id from compra\_leite\_uht);
+    	\item SELECT COUNT(id) FROM queijo WHERE id NOT IN 
+			(SELECT id from compra\_queijo);
+    	\item SELECT COUNT(id) FROM manteiga WHERE id NOT IN 
+			(SELECT id from compra\_manteiga);
+	\end{itemize}}
 
-	\item E\_RESPONSAVEL\_POR\_TRANSPORTADORA([cpf, cnpj]*) -- 132 tuplas
-	\item E\_RESPONSAVEL\_POR\_FORNECEDOR([cpf, cnpj]*) -- 201 tuplas
-	\item E\_RESPONSAVEL\_POR\_CLIENTE([cpf, cnpj]*) -- 310 tuplas
+\item Valor total dos produtos em estoque
+	\ttt{
+	\begin{itemize}
+		\item SELECT SUM(preco\_leite\_uht) FROM leite\_uht WHERE id NOT IN
+			(SELECT id FROM compra\_leite\_uht);
+		\item SELECT SUM(preco\_queijo) FROM queijo WHERE id NOT IN
+			(SELECT id FROM compra\_queijo);
+		\item SELECT SUM(preco\_manteiga) FROM manteiga WHERE id NOT IN
+			(SELECT id FROM compra\_manteiga);
+	\end{itemize}}
 
-	\item ENTREGA\_LEITE\_UHT(id*, cnpj, data) -- 2300 tuplas
-	\item ENTREGA\_QUEIJO(id*, cnpj, data) -- 1989 tuplas
-	\item ENTREGA\_MANTEIGA(id*, cnpj, data) -- 2012 tuplas
+\item Preço individual de cada produto
+	\ttt{
+	\begin{itemize}
+		\item SELECT id, preco\_leite\_uht FROM leite\_uht;
+		\item SELECT id, preco\_queijo FROM queijo;
+		\item SELECT id, preco\_manteiga FROM manteiga;
+	\end{itemize}}
+
+\item Preço por litro de leite de cada fornecedor
+	\ttt{
+	\begin{itemize}
+    	\item SELECT preco, cnpj FROM insumo;
+	\end{itemize}}
+
+\item Produtos que cada cliente comprou
+	\ttt{
+	\begin{itemize}
+		\item SELECT id, a.cnpj, razao\_social from 
+			cliente a, (SELECT leite\_uht.id, compra\_leite\_uht.cnpj 
+							from leite\_uht, compra\_leite\_uht 
+							where leite\_uht.id = compra\_leite\_uht.id) b 
+			where a.cnpj = b.cnpj;
+		\item SELECT id, a.cnpj, razao\_social from 
+			cliente a, (SELECT queijo.id, compra\_queijo.cnpj 
+							from queijo, compra\_queijo 
+							where queijo.id = compra\_queijo.id) b 
+			where a.cnpj = b.cnpj;
+		\item SELECT id, a.cnpj, razao\_social from 
+			cliente a, (SELECT manteiga.id, compra\_manteiga.cnpj 
+							from manteiga, compra\_manteiga 
+							where manteiga.id = compra\_manteiga.id) b 
+			where a.cnpj = b.cnpj;
+	\end{itemize}}
+
+\item Data da compra de cada produto que um cliente adquiriu
+	\ttt{
+	\begin{itemize}
+		\item SELECT id, a.cnpj, razao\_social, data from 
+			cliente a, (SELECT leite\_uht.id, compra\_leite\_uht.cnpj 
+							from leite\_uht, compra\_leite\_uht 
+							where leite\_uht.id = compra\_leite\_uht.id) b 
+			where a.cnpj = b.cnpj;
+		\item SELECT id, a.cnpj, razao\_social, data from 
+			cliente a, (SELECT queijo.id, compra\_queijo.cnpj 
+							from queijo, compra\_queijo 
+							where queijo.id = compra\_queijo.id) b 
+			where a.cnpj = b.cnpj;
+		\item SELECT id, a.cnpj, razao\_social, data from 
+			cliente a, (SELECT manteiga.id, compra\_manteiga.cnpj 
+							from manteiga, compra\_manteiga 
+							where manteiga.id = compra\_manteiga.id) b 
+			where a.cnpj = b.cnpj;
+	\end{itemize}}
+
+\item Data da entrega de cada produto que um cliente adquiriu
+	\ttt{
+	\begin{itemize}
+		\item SELECT id, a.cnpj, razao\_social, data from 
+			cliente a, (SELECT leite\_uht.id, entrega\_leite\_uht.cnpj 
+							from leite\_uht, entrega\_leite\_uht 
+							where leite\_uht.id = entrega\_leite\_uht.id) b 
+			where a.cnpj = b.cnpj;
+		\item SELECT id, a.cnpj, razao\_social, data from 
+			cliente a, (SELECT queijo.id, entrega\_queijo.cnpj 
+							from queijo, entrega\_queijo 
+							where queijo.id = entrega\_queijo.id) b 
+			where a.cnpj = b.cnpj;
+		\item SELECT id, a.cnpj, razao\_social, data from 
+			cliente a, (SELECT manteiga.id, entrega\_manteiga.cnpj 
+							from manteiga, entrega\_manteiga 
+							where manteiga.id = entrega\_manteiga.id) b 
+			where a.cnpj = b.cnpj;
+	\end{itemize}}
 \end{itemize}
 
 \end{document}
