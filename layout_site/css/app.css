@@ -1,0 +1,64 @@
+.app{
+    border-radius: none;
+    margin: 0vh 0%;
+    width: 100%;
+    max-width: 1000px;
+    height: 82vh;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); */
+    Background-color: #fff;
+    opacity: 0.96;
+	     
+}
+
+.app h1 {
+    font-family: 'Wire One', verdana;
+    font-weight: bold;
+}
+
+
+.app .appup {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    padding: 2em;
+}
+
+.app .appdown {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    padding: 2em;
+}
+
+.app .appdown .results {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #16a085;
+}
+
+.app .appdown .results h2 {
+    font-size: 20vh;
+    color: #eee;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.input {
+    width: 18%;
+    height: 8vh;
+    display: inline-block;
+}
+
+.input input {
+    width: 90%;
+    height: 70%;
+}
+
+
+.app hr {
+    margin: 0;
+    padding: 0;
+}

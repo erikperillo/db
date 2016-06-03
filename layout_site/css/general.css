@@ -1,0 +1,33 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    z-index: 1;
+    font-family: 'PT Sans Narrow', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    background: url("../pics/bg.png") repeat;
+}
+
+.corpo {
+    width: 100%;
+    max-width: 1000px;
+    position: fixed;
+    top: 10vh;
+    height: 82vh;
+    padding: 0;
+    margin: 0;
+}
+
+.clear{
+  clear: both;
+  display: block;  
+  content: "";
+  width: 100%;  
+}
+
+.pre {
+    width: 100%;
+    height: 10vh;
+    display:block;
+}
+

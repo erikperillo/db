@@ -1,0 +1,59 @@
+.navbar2  {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    /* box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    height: 10vh;
+    border-radius: none;
+    Background-color: #1abc9c;
+}
+
+nav  #logo {
+    height: 8vh;
+    border-radius: 2000px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 2px;
+}
+
+nav  .navLeft {
+    position: absolute;
+    left: 0;
+    width: 15%;
+    max-width: 150px;
+    height: 10vh;
+}
+
+nav  .navRight {
+    width: 100%;
+    max-width: 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 10vh;
+}
+
+nav .title {
+    width: auto;
+    position: absolute;
+    left: 0px;
+    top:0;
+    height: 100%;
+    width: 100%;
+}
+nav .navRight .title p {
+    color: #eee;
+    width: 100%;
+    font-size: 7vmin; 
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 3vh 0 3vh 0;
+    text-align: center;
+}
+
