@@ -15,7 +15,7 @@
 
 \title{Sistema de Gestão para fábrica de derivados do leite\\
 	``Laticínios Prometheus Ltda''}
-\author{Rafael Xavier 094349\\
+\author{
 	Matheus Ferreira Tavares Boy 103501\\
 	Rafael Ossamu Gouvêa 106905\\
 	Felipe Viglioni 106665\\
@@ -135,17 +135,17 @@ Houve também uma pequena renomeação de \ttt{leite} para \ttt{leite\_uht}.
 	\ttt{
 	\begin{itemize}
 		\item SELECT id, a.cnpj, razao\_social, data from 
-			cliente a, (SELECT leite\_uht.id, compra\_leite\_uht.cnpj 
+			cliente a, (SELECT leite\_uht.id, compra\_leite\_uht.cnpj, compra\_leite\_uht.data
 							from leite\_uht, compra\_leite\_uht 
 							where leite\_uht.id = compra\_leite\_uht.id) b 
 			where a.cnpj = b.cnpj;
 		\item SELECT id, a.cnpj, razao\_social, data from 
-			cliente a, (SELECT queijo.id, compra\_queijo.cnpj 
+			cliente a, (SELECT queijo.id, compra\_queijo.cnpj, compra\_queijo.data 
 							from queijo, compra\_queijo 
 							where queijo.id = compra\_queijo.id) b 
 			where a.cnpj = b.cnpj;
 		\item SELECT id, a.cnpj, razao\_social, data from 
-			cliente a, (SELECT manteiga.id, compra\_manteiga.cnpj 
+			cliente a, (SELECT manteiga.id, compra\_manteiga.cnpj, compra\_manteiga.data 
 							from manteiga, compra\_manteiga 
 							where manteiga.id = compra\_manteiga.id) b 
 			where a.cnpj = b.cnpj;
@@ -155,17 +155,17 @@ Houve também uma pequena renomeação de \ttt{leite} para \ttt{leite\_uht}.
 	\ttt{
 	\begin{itemize}
 		\item SELECT id, a.cnpj, razao\_social, data from 
-			cliente a, (SELECT leite\_uht.id, entrega\_leite\_uht.cnpj 
+			cliente a, (SELECT leite\_uht.id, entrega\_leite\_uht.cnpj, entrega\_leite\_uht.data
 							from leite\_uht, entrega\_leite\_uht 
 							where leite\_uht.id = entrega\_leite\_uht.id) b 
 			where a.cnpj = b.cnpj;
 		\item SELECT id, a.cnpj, razao\_social, data from 
-			cliente a, (SELECT queijo.id, entrega\_queijo.cnpj 
+			cliente a, (SELECT queijo.id, entrega\_queijo.cnpj, entrega\_queijo.data
 							from queijo, entrega\_queijo 
 							where queijo.id = entrega\_queijo.id) b 
 			where a.cnpj = b.cnpj;
 		\item SELECT id, a.cnpj, razao\_social, data from 
-			cliente a, (SELECT manteiga.id, entrega\_manteiga.cnpj 
+			cliente a, (SELECT manteiga.id, entrega\_manteiga.cnpj, entrega\_manteiga.data
 							from manteiga, entrega\_manteiga 
 							where manteiga.id = entrega\_manteiga.id) b 
 			where a.cnpj = b.cnpj;

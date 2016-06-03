@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.1.4)  1 JUN 2016 21:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.1.4)  3 JUN 2016 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -598,31 +598,14 @@ ECT
  []
 
 
-Overfull \hbox (76.23431pt too wide) in paragraph at lines 152--152
-\T1/cmtt/m/n/10.95 leite_uht.id, compra_leite_uht.cnpj from leite_uht, compra_l
-eite_uht
+Overfull \hbox (19.6506pt too wide) in paragraph at lines 152--152
+\T1/cmtt/m/n/10.95 leite_uht.id, compra_leite_uht.cnpj, compra_leite_uht.data
  []
 
 
-Overfull \hbox (8.33386pt too wide) in paragraph at lines 152--152
-\T1/cmtt/m/n/10.95 where leite_uht.id = compra_leite_uht.id) b where a.cnpj
- []
-
-
-Overfull \hbox (36.62572pt too wide) in paragraph at lines 152--152
-[]\T1/cmtt/m/n/10.95 SELECT id, a.cnpj, razao_social, data from cliente a, (SEL
-ECT
- []
-
-
-Overfull \hbox (8.33386pt too wide) in paragraph at lines 152--152
-\T1/cmtt/m/n/10.95 queijo.id, compra_queijo.cnpj from queijo, compra_queijo
- []
-
-
-Overfull \hbox (30.96735pt too wide) in paragraph at lines 152--152
-\T1/cmtt/m/n/10.95 where queijo.id = compra_queijo.id) b where a.cnpj = b.cnpj;
- 
+Overfull \hbox (110.18454pt too wide) in paragraph at lines 152--152
+\T1/cmtt/m/n/10.95 from leite_uht, compra_leite_uht where leite_uht.id = compra
+_leite_uht.id)
  []
 
 
@@ -632,14 +615,31 @@ ECT
  []
 
 
-Overfull \hbox (53.60083pt too wide) in paragraph at lines 152--152
-\T1/cmtt/m/n/10.95 manteiga.id, compra_manteiga.cnpj from manteiga, compra_mant
-eiga
+Overfull \hbox (42.28409pt too wide) in paragraph at lines 152--152
+\T1/cmtt/m/n/10.95 queijo.id, compra_queijo.cnpj, compra_queijo.data from queij
+o,
  []
 
 
-Overfull \hbox (8.33386pt too wide) in paragraph at lines 152--152
-\T1/cmtt/m/n/10.95 where manteiga.id = compra_manteiga.id) b where a.cnpj =
+Overfull \hbox (13.99223pt too wide) in paragraph at lines 152--152
+\T1/cmtt/m/n/10.95 compra_queijo where queijo.id = compra_queijo.id) b where
+ []
+
+
+Overfull \hbox (36.62572pt too wide) in paragraph at lines 152--152
+[]\T1/cmtt/m/n/10.95 SELECT id, a.cnpj, razao_social, data from cliente a, (SEL
+ECT
+ []
+
+
+Overfull \hbox (2.67549pt too wide) in paragraph at lines 152--152
+\T1/cmtt/m/n/10.95 manteiga.id, compra_manteiga.cnpj, compra_manteiga.data
+ []
+
+
+Overfull \hbox (87.55106pt too wide) in paragraph at lines 152--152
+\T1/cmtt/m/n/10.95 from manteiga, compra_manteiga where manteiga.id = compra_ma
+nteiga.id)
  []
 
 
@@ -649,14 +649,15 @@ ECT
  []
 
 
-Overfull \hbox (87.55106pt too wide) in paragraph at lines 172--172
-\T1/cmtt/m/n/10.95 leite_uht.id, entrega_leite_uht.cnpj from leite_uht, entrega
-_leite_uht
+Overfull \hbox (30.96735pt too wide) in paragraph at lines 172--172
+\T1/cmtt/m/n/10.95 leite_uht.id, entrega_leite_uht.cnpj, entrega_leite_uht.data
+
  []
 
 
-Overfull \hbox (13.99223pt too wide) in paragraph at lines 172--172
-\T1/cmtt/m/n/10.95 where leite_uht.id = entrega_leite_uht.id) b where a.cnpj
+Overfull \hbox (121.50128pt too wide) in paragraph at lines 172--172
+\T1/cmtt/m/n/10.95 from leite_uht, entrega_leite_uht where leite_uht.id = entre
+ga_leite_uht.id)
  []
 
 [4]
@@ -666,14 +667,13 @@ ECT
  []
 
 
-Overfull \hbox (19.6506pt too wide) in paragraph at lines 172--172
-\T1/cmtt/m/n/10.95 queijo.id, entrega_queijo.cnpj from queijo, entrega_queijo
+Overfull \hbox (8.33386pt too wide) in paragraph at lines 172--172
+\T1/cmtt/m/n/10.95 queijo.id, entrega_queijo.cnpj, entrega_queijo.data from
  []
 
 
-Overfull \hbox (36.62572pt too wide) in paragraph at lines 172--172
-\T1/cmtt/m/n/10.95 where queijo.id = entrega_queijo.id) b where a.cnpj = b.cnpj
-; 
+Overfull \hbox (25.30898pt too wide) in paragraph at lines 172--172
+\T1/cmtt/m/n/10.95 queijo, entrega_queijo where queijo.id = entrega_queijo.id)
  []
 
 
@@ -683,14 +683,14 @@ ECT
  []
 
 
-Overfull \hbox (64.91757pt too wide) in paragraph at lines 172--172
-\T1/cmtt/m/n/10.95 manteiga.id, entrega_manteiga.cnpj from manteiga, entrega_ma
-nteiga
+Overfull \hbox (13.99223pt too wide) in paragraph at lines 172--172
+\T1/cmtt/m/n/10.95 manteiga.id, entrega_manteiga.cnpj, entrega_manteiga.data
  []
 
 
-Overfull \hbox (2.67549pt too wide) in paragraph at lines 172--172
-\T1/cmtt/m/n/10.95 where manteiga.id = entrega_manteiga.id) b where a.cnpj
+Overfull \hbox (98.8678pt too wide) in paragraph at lines 172--172
+\T1/cmtt/m/n/10.95 from manteiga, entrega_manteiga where manteiga.id = entrega_
+manteiga.id)
  []
 
 [5] (/home/erik/proj/db/doc/part_3.aux) ) 
@@ -710,7 +710,7 @@ dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type
 1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-sup
 er/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb
 ></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on part_3.pdf (5 pages, 151437 bytes).
+Output written on part_3.pdf (5 pages, 151092 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
